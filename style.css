@@ -1,0 +1,93 @@
+body { background-color:  #fcf6f6 ;
+	   font-family: sans-serif;}
+
+/* START POINT: Stylize navigation bar */
+ul.navigation { background-color: #2c3e50; 
+				list-style-type: none;
+				overflow: hidden; }
+
+li.navigation { float: left; }
+
+li.navigation a { display: block;
+	   color: white;
+	   text-align: center;
+	   padding: 10px 10px 10px 10px;
+	   font-size: 17px;
+	   font-weight: bold;
+	   text-decoration: none; }
+
+li.navigation a:hover { background-color: #f0c7aa;  
+						color: black}
+/* END POINT: Stylize navigation bar */
+
+/* START POINT: Stylize logo & name & slogan bar */
+.intro { color: #2c6dea;
+		 background-color: #d5d8dc;
+		 margin-top: 0;
+		 line-height: 10px;
+		 padding: 10px 0 1px 0;
+		 text-align: center; }
+
+.logo { border: 0 solid #000000;
+	    max-width: 10%;
+	    margin: 0 auto; } 
+/* END POINT: Stylize logo & name & slogan bar */
+				   
+/* START POINT: General Elements */
+h3 { color: #2c6dea; 
+	 background-color: #eaecee;
+	 margin: 10 px;
+	 padding: 5px 5px 5px 5px;
+	 text-align: left; }
+				   
+p { margin-left: 20px;
+	margin-right: 10px; }
+	
+.source { margin: 0 0 15px 0;
+		  padding: 0 0 0 0;
+		  text-align:center;
+		  font-size: 10px; }
+
+figure { margin: 0 0 15px 0;
+		 text-align:center;
+		 font-size: 10px; }
+		  
+table { width: 95%;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		text-align:center; }
+		      
+th { border: 3px solid black;
+	 background-color: #d5d8dc; }
+		      
+td { border: 1px solid black;
+	 background-color: #f8f9f9; }
+
+.ol1 { list-style-type: lower-alpha;
+	   line-height: 200%}
+
+.big { border: 10px solid #2c3e50;
+	   width: 60%;
+	   height: 60%;
+	   display: block;
+	   margin: 0 auto;
+	   text-align: center; }
+
+.normal { border: 5px solid #2c3e50;
+		  width: 40%;
+	      height: 40%;
+		  display: block;
+		  margin: 0 auto;
+		  text-align: center; }
+/* END POINT: General Elements */
+
+/* START POINT: Footer */
+footer { background-color: #d5d8dc;
+		 color: #2c6dea;	
+		 text-align: left;
+		 font-size: 10pt; 
+		 margin-top: 10px; 
+		 padding: 1px 0 1px 0; }
+		 
+details { margin-left: 20px;}
+/* END POINT: Footer */
